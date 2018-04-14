@@ -125,7 +125,7 @@ Here is a sample from the driving data.  This is center lane driving with all 3 
 
 Center Camera | Left Camera | Right Camera
 - | - | -
-![Center Camera](./center.jpg) | ![Left Camera](./left.jpg) | ![Right Camera](./right.jpg)
+![Center Camera](./img/center.jpg) | ![Left Camera](./img/left.jpg) | ![Right Camera](./img/right.jpg)
 
 During training I would choose randomly one of these images.  If the center camera image was choosen I used the steering angle as is.  However, for the the left and right camera images I used a steering correction constant number. Initially I had 0.25 but eventually ended up using 0.18 and that seemed to work fairly good.
 
@@ -135,7 +135,7 @@ I used a total of 3,675 samples from Udacity's data.  But because I added the a 
 
 I also removed a lot of samples container 0 steering angles.  Here's a picture of the final distribution of steering angles used:
 
-![Histogram Steering Angles](./histogram_steering_angles.png)
+![Histogram Steering Angles](./img/histogram_steering_angles.png)
 
 
 20% of this data was used for validation.  During training I used a Keras generator that would shuffle the samples for both the training data and validation data.
@@ -144,7 +144,7 @@ I used the training data to train the model and the validation data helped with 
 
 Here's a sample output from Keras during training for 5 epochs:
 
-![Keras Output During Training](./keras_training_output.png)
+![Keras Output During Training](./img/keras_training_output.png)
 
 
 I used an adam optimizer so that manually training the learning rate was not necessary.
