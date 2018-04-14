@@ -133,7 +133,7 @@ To further augment the data once an image was choosen I would also flip that ima
 
 I used a total of 3,675 samples from Udacity's data.  But because I added the a flipped image to training the amount of samples doubled (7,350).
 
-I also removed a lot of samples container 0 steering angles.  Here's a picture of the final distribution of steering angles used:
+I also removed a lot of samples containing 0 steering angles.  Here's a picture of the final distribution of steering angles used:
 
 ![Histogram Steering Angles](./img/histogram_steering_angles.png)
 
