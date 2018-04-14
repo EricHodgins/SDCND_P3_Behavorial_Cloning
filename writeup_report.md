@@ -57,7 +57,7 @@ Eventually, I found using NVIDIA's model worked really well for me. Although, at
 
 Here is the final model visualization taken from the NVIDIA paper:
 
-![Model Visualization](./NVIDIA_CNN_PIC.png)
+![Model Visualization](./img/NVIDIA_CNN_PIC.png)
 
 Here's the code used:
 
