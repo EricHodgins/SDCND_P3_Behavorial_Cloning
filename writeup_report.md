@@ -144,7 +144,7 @@ I used the training data to train the model and the validation data helped with 
 
 Here's a sample output from Keras during training for 5 epochs:
 
-![Keras Output During Training](./img/keras_training_output.png)
+![Keras Output During Training](./img/keras_output.png)
 
 
 I used an adam optimizer so that manually training the learning rate was not necessary.
